@@ -8,14 +8,21 @@ public class Catch_the_Coin {
             int x = sc.nextInt();
             int y = sc.nextInt();
 
-            int ans = Math.abs(x);
-
-            if(ans >= ans-y-1){
+            if(y >= -1){
                 System.out.println("YES");
             }
             else{
                 System.out.println("NO");
             }
+
+//            int ans = Math.abs(x);
+//
+//            if(ans >= ans-y-1){
+//                System.out.println("YES");
+//            }
+//            else{
+//                System.out.println("NO");
+//            }
             t--;
         }
     }
